@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/atari/Desktop/Github/GLFW Tests/build",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/mainGLFW.dir/src/main.c.o -c \"/home/atari/Desktop/Github/GLFW Tests/src/main.c\"",
+  "file": "/home/atari/Desktop/Github/GLFW Tests/src/main.c",
+  "output": "CMakeFiles/mainGLFW.dir/src/main.c.o"
+}
+]

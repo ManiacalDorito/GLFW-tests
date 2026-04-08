@@ -1,0 +1,3 @@
+/home/atari/Desktop/Github/GLFW Tests/build/CMakeFiles/mainGLFW.dir
+/home/atari/Desktop/Github/GLFW Tests/build/CMakeFiles/edit_cache.dir
+/home/atari/Desktop/Github/GLFW Tests/build/CMakeFiles/rebuild_cache.dir
