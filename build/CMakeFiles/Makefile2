@@ -85,12 +85,12 @@ clean: CMakeFiles/mainGLFW.dir/clean
 CMakeFiles/mainGLFW.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainGLFW.dir/build.make CMakeFiles/mainGLFW.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainGLFW.dir/build.make CMakeFiles/mainGLFW.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/atari/Desktop/Github/GLFW Tests/build/CMakeFiles" --progress-num=1,2 "Built target mainGLFW"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/atari/Desktop/Github/GLFW Tests/build/CMakeFiles" --progress-num=1,2,3 "Built target mainGLFW"
 .PHONY : CMakeFiles/mainGLFW.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mainGLFW.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/atari/Desktop/Github/GLFW Tests/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/atari/Desktop/Github/GLFW Tests/build/CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mainGLFW.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/atari/Desktop/Github/GLFW Tests/build/CMakeFiles" 0
 .PHONY : CMakeFiles/mainGLFW.dir/rule
@@ -102,7 +102,7 @@ mainGLFW: CMakeFiles/mainGLFW.dir/rule
 # codegen rule for target.
 CMakeFiles/mainGLFW.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainGLFW.dir/build.make CMakeFiles/mainGLFW.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/atari/Desktop/Github/GLFW Tests/build/CMakeFiles" --progress-num=1,2 "Finished codegen for target mainGLFW"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/atari/Desktop/Github/GLFW Tests/build/CMakeFiles" --progress-num=1,2,3 "Finished codegen for target mainGLFW"
 .PHONY : CMakeFiles/mainGLFW.dir/codegen
 
 # clean rule for target.

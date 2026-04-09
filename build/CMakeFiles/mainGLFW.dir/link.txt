@@ -1,1 +1,1 @@
-/usr/bin/gcc -g -Wl,--dependency-file=CMakeFiles/mainGLFW.dir/link.d CMakeFiles/mainGLFW.dir/src/main.c.o -o mainGLFW  /usr/local/lib/libglfw3.a /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl
+/usr/bin/g++ -g -Wl,--dependency-file=CMakeFiles/mainGLFW.dir/link.d CMakeFiles/mainGLFW.dir/src/main.cpp.o CMakeFiles/mainGLFW.dir/src/glad.c.o -o mainGLFW  /usr/local/lib/libglfw3.a /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl

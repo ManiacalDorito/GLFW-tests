@@ -1,8 +1,14 @@
 [
 {
   "directory": "/home/atari/Desktop/Github/GLFW Tests/build",
-  "command": "/usr/bin/gcc   -g -o CMakeFiles/mainGLFW.dir/src/main.c.o -c \"/home/atari/Desktop/Github/GLFW Tests/src/main.c\"",
-  "file": "/home/atari/Desktop/Github/GLFW Tests/src/main.c",
-  "output": "CMakeFiles/mainGLFW.dir/src/main.c.o"
+  "command": "/usr/bin/g++  -I\"/home/atari/Desktop/Github/GLFW Tests/include\" -g -o CMakeFiles/mainGLFW.dir/src/main.cpp.o -c \"/home/atari/Desktop/Github/GLFW Tests/src/main.cpp\"",
+  "file": "/home/atari/Desktop/Github/GLFW Tests/src/main.cpp",
+  "output": "CMakeFiles/mainGLFW.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/atari/Desktop/Github/GLFW Tests/build",
+  "command": "/usr/bin/gcc  -I\"/home/atari/Desktop/Github/GLFW Tests/include\" -g -o CMakeFiles/mainGLFW.dir/src/glad.c.o -c \"/home/atari/Desktop/Github/GLFW Tests/src/glad.c\"",
+  "file": "/home/atari/Desktop/Github/GLFW Tests/src/glad.c",
+  "output": "CMakeFiles/mainGLFW.dir/src/glad.c.o"
 }
 ]

@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/atari/Desktop/Github/GLFW Tests/src/main.c" "CMakeFiles/mainGLFW.dir/src/main.c.o" "gcc" "CMakeFiles/mainGLFW.dir/src/main.c.o.d"
+  "/home/atari/Desktop/Github/GLFW Tests/src/glad.c" "CMakeFiles/mainGLFW.dir/src/glad.c.o" "gcc" "CMakeFiles/mainGLFW.dir/src/glad.c.o.d"
+  "/home/atari/Desktop/Github/GLFW Tests/src/main.cpp" "CMakeFiles/mainGLFW.dir/src/main.cpp.o" "gcc" "CMakeFiles/mainGLFW.dir/src/main.cpp.o.d"
   "" "mainGLFW" "gcc" "CMakeFiles/mainGLFW.dir/link.d"
   )
 

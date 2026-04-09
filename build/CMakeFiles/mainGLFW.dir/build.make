@@ -72,28 +72,44 @@ include CMakeFiles/mainGLFW.dir/flags.make
 CMakeFiles/mainGLFW.dir/codegen:
 .PHONY : CMakeFiles/mainGLFW.dir/codegen
 
-CMakeFiles/mainGLFW.dir/src/main.c.o: CMakeFiles/mainGLFW.dir/flags.make
-CMakeFiles/mainGLFW.dir/src/main.c.o: /home/atari/Desktop/Github/GLFW\ Tests/src/main.c
-CMakeFiles/mainGLFW.dir/src/main.c.o: CMakeFiles/mainGLFW.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/atari/Desktop/Github/GLFW Tests/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/mainGLFW.dir/src/main.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mainGLFW.dir/src/main.c.o -MF CMakeFiles/mainGLFW.dir/src/main.c.o.d -o CMakeFiles/mainGLFW.dir/src/main.c.o -c "/home/atari/Desktop/Github/GLFW Tests/src/main.c"
+CMakeFiles/mainGLFW.dir/src/main.cpp.o: CMakeFiles/mainGLFW.dir/flags.make
+CMakeFiles/mainGLFW.dir/src/main.cpp.o: /home/atari/Desktop/Github/GLFW\ Tests/src/main.cpp
+CMakeFiles/mainGLFW.dir/src/main.cpp.o: CMakeFiles/mainGLFW.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/atari/Desktop/Github/GLFW Tests/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mainGLFW.dir/src/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mainGLFW.dir/src/main.cpp.o -MF CMakeFiles/mainGLFW.dir/src/main.cpp.o.d -o CMakeFiles/mainGLFW.dir/src/main.cpp.o -c "/home/atari/Desktop/Github/GLFW Tests/src/main.cpp"
 
-CMakeFiles/mainGLFW.dir/src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/mainGLFW.dir/src/main.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/atari/Desktop/Github/GLFW Tests/src/main.c" > CMakeFiles/mainGLFW.dir/src/main.c.i
+CMakeFiles/mainGLFW.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mainGLFW.dir/src/main.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/atari/Desktop/Github/GLFW Tests/src/main.cpp" > CMakeFiles/mainGLFW.dir/src/main.cpp.i
 
-CMakeFiles/mainGLFW.dir/src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/mainGLFW.dir/src/main.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/atari/Desktop/Github/GLFW Tests/src/main.c" -o CMakeFiles/mainGLFW.dir/src/main.c.s
+CMakeFiles/mainGLFW.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mainGLFW.dir/src/main.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/atari/Desktop/Github/GLFW Tests/src/main.cpp" -o CMakeFiles/mainGLFW.dir/src/main.cpp.s
+
+CMakeFiles/mainGLFW.dir/src/glad.c.o: CMakeFiles/mainGLFW.dir/flags.make
+CMakeFiles/mainGLFW.dir/src/glad.c.o: /home/atari/Desktop/Github/GLFW\ Tests/src/glad.c
+CMakeFiles/mainGLFW.dir/src/glad.c.o: CMakeFiles/mainGLFW.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/atari/Desktop/Github/GLFW Tests/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/mainGLFW.dir/src/glad.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mainGLFW.dir/src/glad.c.o -MF CMakeFiles/mainGLFW.dir/src/glad.c.o.d -o CMakeFiles/mainGLFW.dir/src/glad.c.o -c "/home/atari/Desktop/Github/GLFW Tests/src/glad.c"
+
+CMakeFiles/mainGLFW.dir/src/glad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/mainGLFW.dir/src/glad.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/atari/Desktop/Github/GLFW Tests/src/glad.c" > CMakeFiles/mainGLFW.dir/src/glad.c.i
+
+CMakeFiles/mainGLFW.dir/src/glad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/mainGLFW.dir/src/glad.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/atari/Desktop/Github/GLFW Tests/src/glad.c" -o CMakeFiles/mainGLFW.dir/src/glad.c.s
 
 # Object files for target mainGLFW
 mainGLFW_OBJECTS = \
-"CMakeFiles/mainGLFW.dir/src/main.c.o"
+"CMakeFiles/mainGLFW.dir/src/main.cpp.o" \
+"CMakeFiles/mainGLFW.dir/src/glad.c.o"
 
 # External object files for target mainGLFW
 mainGLFW_EXTERNAL_OBJECTS =
 
-mainGLFW: CMakeFiles/mainGLFW.dir/src/main.c.o
+mainGLFW: CMakeFiles/mainGLFW.dir/src/main.cpp.o
+mainGLFW: CMakeFiles/mainGLFW.dir/src/glad.c.o
 mainGLFW: CMakeFiles/mainGLFW.dir/build.make
 mainGLFW: CMakeFiles/mainGLFW.dir/compiler_depend.ts
 mainGLFW: /usr/local/lib/libglfw3.a
@@ -101,7 +117,7 @@ mainGLFW: /usr/lib/x86_64-linux-gnu/libGL.so
 mainGLFW: /usr/lib/x86_64-linux-gnu/librt.a
 mainGLFW: /usr/lib/x86_64-linux-gnu/libm.so
 mainGLFW: CMakeFiles/mainGLFW.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/atari/Desktop/Github/GLFW Tests/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable mainGLFW"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/atari/Desktop/Github/GLFW Tests/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable mainGLFW"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mainGLFW.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
